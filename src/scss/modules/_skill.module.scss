@@ -1,0 +1,35 @@
+.skills_section {
+    padding: 4rem 4rem;
+
+    .skills_container {
+        gap: 2rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: center;
+
+        .skill_card {
+            padding: 0.8rem;
+            background: $graywhite;
+            border: 0.1rem solid $redpink;
+            border-radius: 1rem;
+            box-shadow: 0.1rem 0.1rem 0.5rem rgba(0, 0, 0, 0.4);
+
+            div {
+                width: 100%;
+                height: 50px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+
+            p {
+                margin-top: 1.6rem;
+                font-size: 1.8rem;
+                text-align: center;
+            }
+        }
+    }
+}

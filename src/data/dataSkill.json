@@ -1,0 +1,33 @@
+{
+    "skills":[
+        {
+            "id": "1",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/CSS3_and_HTML5_logos_and_wordmarks.svg/2560px-CSS3_and_HTML5_logos_and_wordmarks.svg.png",
+            "title": "Html/css"
+        },
+
+        {
+            "id": "2",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/320px-Tailwind_CSS_Logo.svg.png",
+            "title": "Tailwindcss"
+        },
+        
+        {
+            "id": "3",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Javascript_badge.svg/1200px-Javascript_badge.svg.png",
+            "title": "Javascript"
+        },
+
+        {
+            "id": "4",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
+            "title": "ReactJS"
+        },
+
+        {
+            "id": "5",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/2560px-Node.js_logo.svg.png",
+            "title": "NodeJS"
+        }
+    ]
+}

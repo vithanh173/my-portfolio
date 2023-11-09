@@ -1,0 +1,101 @@
+.navbar {
+    padding: 1.5rem 4rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: $graywhite;
+    box-shadow: 0.5rem 0.5rem 8rem 0 rgba(115, 110, 110, 0.1);
+    z-index: 99;
+
+    .nav_items>ul {
+        gap: 4.4rem;
+        display: flex;
+        align-items: flex-start;
+        text-decoration: none;
+        list-style: none;
+
+        &>li>a {
+            text-decoration: none;
+        }
+
+        .nav_item {
+            line-height: 2.4rem;
+            font-size: 1.6rem;
+            font-weight: 400;
+            font-style: normal;
+            color: $darkblue;
+            cursor: pointer;
+        }
+
+        .nav_item.active {
+            color: $primary-color;
+        }
+    }
+
+    .nav_mobile {
+        padding: 2rem;
+        position: absolute;
+        top: 50%;
+        right: 1rem;
+        display: none;
+        transform: translateY(-50%);
+
+        .nav_mobile_line {
+            position: absolute;
+            top: 50%;
+            right: 0.5rem;
+            width: 3rem;
+            height: 0.3rem;
+            background: $darkblue;
+            @include transition-ease-in-out;
+
+            &::before {
+                content: "";
+                position: absolute;
+                bottom: 1rem;
+                right: 0;
+                width: 3rem;
+                height: 0.3rem;
+                background: $darkblue;
+                @include transition-ease-in-out;
+            }
+
+            &::after {
+                content: "";
+                position: absolute;
+                top: 1rem;
+                right: 0;
+                width: 3rem;
+                height: 0.3rem;
+                background: $darkblue;
+                @include transition-ease-in-out;
+            }
+
+            &.active {
+                transform: rotate(720deg);
+                background-color: transparent;
+
+                &::before {
+                    transform: rotate(45deg) translate(0.4rem, 0.6rem);
+                }
+
+                &::after {
+                    transform: rotate(-45deg) translate(0.8rem, -1rem);
+                }
+            }
+        }
+    }
+
+    .switch_light_dark {
+
+        svg {
+            margin-top: 0.2rem;
+            font-size: 3rem;
+            cursor: pointer;
+        }
+    }
+}

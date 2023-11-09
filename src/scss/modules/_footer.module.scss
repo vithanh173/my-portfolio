@@ -1,0 +1,31 @@
+.contact_section {
+    padding: 4rem 4rem;
+    color: $darkblue;
+    background: $graywhite;
+
+    h1 {
+        text-align: center;
+    }
+
+    .contact_container {
+        gap: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+
+        span {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            svg {
+                margin: 0 0.4rem 0.5rem 0;
+            }
+        }
+
+        p {
+            text-align: center;
+        }
+    }
+}

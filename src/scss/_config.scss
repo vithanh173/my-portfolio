@@ -1,0 +1,113 @@
+@import url('https://fonts.cdnfonts.com/css/grow-west');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 62.5% "Grow West", sans-serif;
+    background: $sky-color;
+}
+
+.btn {
+    padding: 1.4rem 3.2rem;
+    display: inline-block;
+    line-height: 2.4rem;
+    font: normal 1.6rem "Grow West", sans-serif;
+    text-align: center;
+    border-radius: 0.5rem;
+    box-shadow: 0.2rem 0.2rem 0.3rem rgba(16, 24, 40, 0.95);
+    transition: background-color 0.5s;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    cursor: pointer;
+}
+
+.btn_primary {
+    color: $white-color;
+    background: $primary-color;
+    border: 0.1rem solid $primary-color;
+}
+
+.btn_primary:hover {
+    color: $primary-color;
+    background: $white-color;
+}
+
+.btn_github {
+    padding: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $white-color;
+    background: $redpink;
+    border: 0.1rem solid $redpink;
+}
+
+.btn_github:hover {
+    color: $redpink;
+    background: $white-color;
+}
+
+h1 {
+    line-height: 6.7rem;
+    font-size: 5.6rem;
+    font-weight: 700;
+}
+
+h2 {
+    line-height: 5.8rem;
+    font-size: 4.8rem;
+    font-weight: 700;
+}
+
+h3 {
+    line-height: 3.4rem;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.text_lg {
+    line-height: 2.7rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    font-style: normal;
+    color: $darkblue;
+}
+
+.text_md {
+    line-height: 2.4rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-style: normal;
+    color: $darkblue;
+}
+
+.text_sm {
+    line-height: 2.1rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-style: normal;
+    color: $darkblue;
+}
+
+.title {
+    display: flex;
+    align-items: flex-start;
+    line-height: 3.2rem;
+    font-size: 2.1rem;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    color: $heading-color;
+}
+
+.sub_title {
+    line-height: 2.4rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: $heading-color;
+}

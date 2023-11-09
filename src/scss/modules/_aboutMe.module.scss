@@ -1,0 +1,35 @@
+.about_section {
+    padding: 4rem 4rem;
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    img {
+        align-self: flex-start;
+        width: 100%;
+        height: 100%;
+        border-radius: 0.5rem;
+    }
+
+    .infor_container {
+        margin-bottom: 1.6rem;
+        padding: 1rem;
+        color: $darkblue;
+        background-color: $medium-blue;
+        border-radius: 1rem;
+        transition: all ease-in-out 0.2s;
+
+        h3 {
+            margin-bottom: 0.4rem;
+        }
+
+        p {
+            margin-bottom: 0.8rem;
+            font-size: 1.6rem;
+        }
+    }
+
+    .infor_container:hover {
+        transform: translateY(-10px);
+    }
+}

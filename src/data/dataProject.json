@@ -1,0 +1,31 @@
+{
+    "projects":[
+        {
+            "id":"",
+            "img":"https://s3.amazonaws.com/cdn.designcrowd.com/blog/60-Famous-Band-Logos-That-Rock/header-60-famous-band-logos-that-rock-designcrowd-blog.png",
+            "name":"The Band",
+            "technologies":["ReactJS", "HTML/CSS(SCSS)", "Vite.js"],
+            "description":"",
+            "github":"https://github.com/vithanh173/the-band",
+            "preview":"https://vithanh173.github.io/the-band/"
+        },
+        {
+            "id":"",
+            "img": "https://media.istockphoto.com/id/1285082518/fr/photo/tablette-avec-trombone-liste-de-courses-illustration-3d-rendu-3d.jpg?s=170667a&w=0&k=20&c=c40ml9pViPDuTtsT2NYzYJBTKWYUtG7woCtyQv8eF1g=",
+            "name":"Todo",
+            "technologies":["ReactJS with Redux", "HTML/CSS(SCSS)", "Vite.js"],
+            "description":"",
+            "github":"",
+            "preview":""
+        },
+        {
+            "id":"",
+            "img":"https://procaresoftware.com/wp-content/uploads/2021/04/AdobeStock_273722658_Resized-1024x409.jpeg",
+            "name":"Portfolio with TailwindCSS",
+            "technologies":["ReactJS", "TailwindCSS", "Vite.js"],
+            "description":"",
+            "github":"https://github.com/vithanh173/portfolio",
+            "preview":"https://vithanh173.github.io/portfolio/"
+        }
+    ]
+}
